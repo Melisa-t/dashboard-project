@@ -89,3 +89,9 @@ background-color: lightpink;
     width: 30px;
     height: 30px;
 }
+
+.dashboard-img::before{
+    background-image: url(img/view-dashboard-outline.svg);
+    width: 30px;
+    height: 30px;
+}
