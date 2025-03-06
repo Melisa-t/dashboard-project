@@ -239,7 +239,7 @@ span{
 }
 
 .card{
-    background-color: pink;
+    background-color: white;
     width: 80%;
     height: 100%;
     display: grid;
@@ -247,6 +247,7 @@ span{
     align-items: center;
     border-radius: 15px;
 }
+
 
 .card > .content > p {
     font-weight: 100;
