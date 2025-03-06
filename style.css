@@ -187,12 +187,44 @@ grid-auto-flow: column;
 
 .header-post{
     display: grid;
+    grid-template-columns: 2fr 1fr;
 
 }
-.welcoming-test{
-    background-color: red;
+.welcoming-text{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    gap: 15px;
+}
+
+span{
+    display: block;
+}
+
+.btn{
+width: 70%;
+height: 30%;
+background-color: #A5B68D;
+border-radius: 25px;
+display: grid;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+border: 2px solid #C1CFA1;
 }
 
 .post-controls{
-    background-color: blue;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.big{
+    font-size: 2rem;
+}
+
+.small{
+    font-size: 0.8rem;
 }
