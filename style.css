@@ -56,6 +56,9 @@
 
 .main-content{
 background-color: #e7e7e7;
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows: 1fr 1fr;
 }
 
 .home-img{
@@ -204,15 +207,15 @@ span{
 }
 
 .btn{
-width: 70%;
-height: 30%;
-background-color: #A5B68D;
-border-radius: 25px;
-display: grid;
-justify-content: center;
-align-items: center;
-font-size: 1rem;
-border: 2px solid #C1CFA1;
+    width: 70%;
+    height: 30%;
+    background-color: #A5B68D;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: 2px solid #C1CFA1;
 }
 
 .post-controls{
@@ -227,4 +230,25 @@ border: 2px solid #C1CFA1;
 
 .small{
     font-size: 0.8rem;
+}
+
+.trending{
+
+    grid-column: 2 / 3;
+}
+
+.card{
+    background-color: pink;
+    width: 400px;
+    height: 200px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1 / 3;
 }
