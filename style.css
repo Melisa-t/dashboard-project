@@ -23,3 +23,69 @@
 .main-content{
 background-color: lightpink;
 }
+
+.home-img{
+    background-image: url(/img/home-heart.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.home-img{
+    background-image: url(/img/home-heart.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.profile-img{
+    background-image: url(/img/face-woman-profile.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.messages-img{
+    background-image: url(/img/message-badge-outline.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.history-img{
+    background-image: url(/img/history.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.tasks-img{
+    background-image: url(/img/calendar-check.svg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.communities-img{
+    background-image: url(/img/account-group-outline.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.settings-img{
+    background-image: url(/img/cog.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.support-img{
+    background-image: url(/img/help-network.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.privacy-img{
+    background-image: url(/img/shield-check-outline.svg);
+    width: 30px;
+    height: 30px;
+}
