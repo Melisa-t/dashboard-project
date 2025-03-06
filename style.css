@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: purple;
+    grid-row: 1 / 6 ;
+}
+
+.header{
+    background-color: green;
+}
+
+.main-content{
+background-color: lightpink;
+}
