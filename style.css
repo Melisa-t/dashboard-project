@@ -335,7 +335,7 @@ span{
 
 .announcements-container > .announcements > .update > p {
     font-weight: 100;
-    border-bottom: 1px black solid;
+    border-bottom: 1px rgb(206, 206, 206) solid;
     padding-bottom: 15px;
 }
 
