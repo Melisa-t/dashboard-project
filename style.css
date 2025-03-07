@@ -50,18 +50,19 @@
 
 .header{
     display: grid;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: white;
+    padding: 10px;
 }
 
 .main-content{
     background-color: #e7e7e7;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     padding: 30px 15px 30px 15px;
     justify-content: space-around;
-    
+
 }
 
 .home-img{
@@ -219,6 +220,7 @@ span{
     align-items: center;
     font-size: 1rem;
     border: 2px solid #C1CFA1;
+    padding: 10px;
 }
 
 .post-controls{
@@ -297,7 +299,7 @@ span{
 }
 
 .projects-container{
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
 
 }
 
@@ -309,12 +311,12 @@ span{
 
 .announcements-container{
     margin-right: 30px;
+
 }
 .announcements-container > p {
     margin-bottom: 10px;
     font-weight: 400;
     margin-left: 10px;
-
 }
 .announcements{
     padding: 30px;
@@ -340,21 +342,35 @@ span{
 
 .trending-container{
     margin-right: 30px;
+    margin-top: 30px;
 }
 .trending-container > p {
     margin-bottom: 10px;
     font-weight: 400;
     margin-left: 10px;
-
 }
 .trending{
     padding: 30px;
     background-color: white;
     border-radius: 15px;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: row;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.first-person , .second-person, .third-person, .fourth-person{
+    display: flex;
+    gap: 30px;
+}
+
+.app-name1, .app-name2, .app-name3, .app-name4 {
+    font-weight: 300;
+}
+.username-1, .username-2, .username-3, .username-4 {
+    font-weight: 400;
 }
 
 .first-profile-pic{
