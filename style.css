@@ -337,3 +337,50 @@ span{
     padding-bottom: 15px;
 }
 
+
+.trending-container{
+    margin-right: 30px;
+}
+.trending-container > p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+.trending{
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.first-profile-pic{
+    background-image: url(img/fairy1.png);
+    width: 40px;
+    height: 40px;
+    background-size:cover;
+}
+
+.second-profile-pic{
+    background-image: url(img/fairy2.png);
+    width: 40px;
+    height: 40px;
+    background-size:cover;
+}
+
+.third-profile-pic{
+    background-image: url(img/fairy3.png);
+    width: 40px;
+    height: 40px;
+    background-size:cover;
+}
+
+.fourth-profile-pic{
+    background-image: url(img/fairy4.png);
+    width: 40px;
+    height: 40px;
+    background-size:cover;
+}
